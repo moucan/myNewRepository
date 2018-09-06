@@ -19,5 +19,6 @@ public class CurrentConditionsDisplay implements Observer,Dispalyment{
         this.temperature = temperature;
         this.humidity = humidity;
         display();
+        System.out.println("test");
     }
 }
